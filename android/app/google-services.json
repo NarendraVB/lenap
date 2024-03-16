@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "334647849605",
+    "project_id": "lenap-81ff7",
+    "storage_bucket": "lenap-81ff7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334647849605:android:7d501af2feb4ca146dafec",
+        "android_client_info": {
+          "package_name": "com.example.lenap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334647849605-008645tj9u5novr4nrd9s440nn0tt93j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenap",
+            "certificate_hash": "59460cc06a9258808af82b4e424684742cdc67ff"
+          }
+        },
+        {
+          "client_id": "334647849605-8jbqqvdbbqgur4nh282huco3ekpqs346.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQCX2gWIOUa_a3m5b0ezDNk5C5N85w5Hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334647849605-8jbqqvdbbqgur4nh282huco3ekpqs346.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "334647849605-ata0e32ich9ci8s5nid8psfv2o7630j2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lenap.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
