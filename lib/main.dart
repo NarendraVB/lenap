@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lenap/camera.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,16 +41,14 @@ class LoginPage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 const Text(
-                  "NAP'LE",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 55,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                const Text(
-                  "Welcome to our app",
-                  style: TextStyle(
+                  "NAP'Lé",
+                  style: GoogleFonts.getFont(
+                    'Roboto', // Use Roboto font
+                    textStyle: TextStyle(
+                      color: Colors.white,
+                      fontSize: 55,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Davish', // Font family 'Davish'
                     color: Colors.white,
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
@@ -62,7 +61,7 @@ class LoginPage extends StatelessWidget {
                   width: 100,
                   height: 100,
                   child: Image.asset(
-                    "assets/login.png",
+                    "assets/logo.jpg",
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -128,7 +127,8 @@ class LoginPage extends StatelessWidget {
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           image: DecorationImage(
-                            image: AssetImage("assets/flat-color-icons_google.png"),
+                            image: AssetImage(
+                                "assets/flat-color-icons_google.png"),
                             fit: BoxFit.cover,
                           ),
                         ),

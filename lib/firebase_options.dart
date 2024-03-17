@@ -44,42 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAJ0Tgl3ilNKQAKKWazILTGJClHOPkK67c',
-    appId: '1:334647849605:web:651176e6f132189b6dafec',
-    messagingSenderId: '334647849605',
-    projectId: 'lenap-81ff7',
-    authDomain: 'lenap-81ff7.firebaseapp.com',
-    storageBucket: 'lenap-81ff7.appspot.com',
-    measurementId: 'G-Z16E67KRVF',
+    apiKey: 'AIzaSyDEKkJOdjyiXpU7huRtGQmEe6YtYvWyJAU',
+    appId: '1:671954839250:web:fe7cec6bd1ef1615ed6f0b',
+    messagingSenderId: '671954839250',
+    projectId: 'imageup-a30e8',
+    authDomain: 'imageup-a30e8.firebaseapp.com',
+    storageBucket: 'imageup-a30e8.appspot.com',
+    measurementId: 'G-GRJDTDQG2Q',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCQCX2gWIOUa_a3m5b0ezDNk5C5N85w5Hk',
-    appId: '1:334647849605:android:7d501af2feb4ca146dafec',
-    messagingSenderId: '334647849605',
-    projectId: 'lenap-81ff7',
-    storageBucket: 'lenap-81ff7.appspot.com',
+    apiKey: 'AIzaSyAxW9et95aCwqzEOz_jPhOhEpDenFUZMWI',
+    appId: '1:671954839250:android:8a874b56d8bc6878ed6f0b',
+    messagingSenderId: '671954839250',
+    projectId: 'imageup-a30e8',
+    storageBucket: 'imageup-a30e8.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCuJmJgMrLqfunN3HbxJuYNZqC1TFp-SUA',
-    appId: '1:334647849605:ios:8d19163ef1adb24f6dafec',
-    messagingSenderId: '334647849605',
-    projectId: 'lenap-81ff7',
-    storageBucket: 'lenap-81ff7.appspot.com',
-    androidClientId: '334647849605-008645tj9u5novr4nrd9s440nn0tt93j.apps.googleusercontent.com',
-    iosClientId: '334647849605-kopoop46mgifeb186jj9u3q7u1fhvabp.apps.googleusercontent.com',
+    apiKey: 'AIzaSyB4lJcIM6sPbNYP6os-kNsaCi6mK9AL2LU',
+    appId: '1:671954839250:ios:27a4a7b8a3b9e46ced6f0b',
+    messagingSenderId: '671954839250',
+    projectId: 'imageup-a30e8',
+    storageBucket: 'imageup-a30e8.appspot.com',
     iosBundleId: 'com.example.lenap',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCuJmJgMrLqfunN3HbxJuYNZqC1TFp-SUA',
-    appId: '1:334647849605:ios:4d2d2735b7e502246dafec',
-    messagingSenderId: '334647849605',
-    projectId: 'lenap-81ff7',
-    storageBucket: 'lenap-81ff7.appspot.com',
-    androidClientId: '334647849605-008645tj9u5novr4nrd9s440nn0tt93j.apps.googleusercontent.com',
-    iosClientId: '334647849605-ata0e32ich9ci8s5nid8psfv2o7630j2.apps.googleusercontent.com',
+    apiKey: 'AIzaSyB4lJcIM6sPbNYP6os-kNsaCi6mK9AL2LU',
+    appId: '1:671954839250:ios:d8ba629ad927fc7bed6f0b',
+    messagingSenderId: '671954839250',
+    projectId: 'imageup-a30e8',
+    storageBucket: 'imageup-a30e8.appspot.com',
     iosBundleId: 'com.example.lenap.RunnerTests',
   );
 }
